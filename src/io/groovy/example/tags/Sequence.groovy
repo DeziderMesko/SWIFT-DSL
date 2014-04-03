@@ -18,6 +18,6 @@ public class Sequence extends Tag {
 		children[child.name] = child
 	}
 	def propertyMissing(String name){
-		children[name]
+		attributes[name]
 	}
 }

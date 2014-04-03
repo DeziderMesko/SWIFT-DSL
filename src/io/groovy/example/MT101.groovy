@@ -14,6 +14,14 @@ def mt101 = mb.message{
 	}
 }
 
+
+
+
+
+
+
+
+
 println mt101.children.tag21.name
 println mt101.tag28.option
 mt101.tag28.option = "A"

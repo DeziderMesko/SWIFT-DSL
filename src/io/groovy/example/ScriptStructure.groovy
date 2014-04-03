@@ -33,7 +33,7 @@ iterate = { Statement stm ->
 		println "ELSE"
 		iterate(stm.getElseBlock())
 	} else if (stm instanceof ExpressionStatement){
-		println stm.getExpression()
+		println "x"+stm.getText()
 	} else if (stm instanceof ReturnStatement){
 		println stm.text
 	} else if (stm instanceof DeclarationExpression){
